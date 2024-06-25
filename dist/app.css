@@ -4,6 +4,30 @@
   padding: 0;
 }
 
+body {
+  letter-spacing: -.01rem;
+}
+
+html {
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-size: 2.66vw;
+}
+
+@media (width >= 768px) {
+  html {
+    font-size: .975vw;
+  }
+}
+
+@media (width >= 1920px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 .preview-img img {
   object-fit: cover;
   width: 100%;
@@ -117,33 +141,6 @@
   margin-right: auto;
   position: absolute;
   right: 0;
-}
-
-html {
-  text-align: left;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  font-family: Matter, sans-serif;
-  font-size: 1.66vw;
-}
-
-@media (width >= 1920px) {
-  html {
-    font-size: 12px;
-  }
-}
-
-@media (width >= 1399px) {
-  html {
-    font-size: 1.125vw;
-  }
-}
-
-@media (width >= 768px) {
-  html {
-    font-size: .678vw;
-  }
 }
 
 .lg-hero-top-clip {
